@@ -1,0 +1,76 @@
+/*Fonts*/
+@font-face {
+  font-family: GandhiSans-Bold;
+  font-style: normal;
+  src: url(../fonts/GandhiSans-Bold.otf);
+}
+
+@font-face {
+  font-family: GandhiSans-BoldItalic;
+  font-style: normal;
+  src: url(../fonts/GandhiSans-BoldItalic.otf);
+}
+
+@font-face {
+  font-family: GandhiSans-Italic;
+  font-style: normal;
+  src: url(../fonts/GandhiSans-italic.otf);
+}
+
+@font-face {
+  font-family: GandhiSans-Regular;
+  font-style: normal;
+  src: url(../fonts/GandhiSans-Regular.otf);
+}
+
+body {
+  background-color: rgb(121, 199, 178);
+}
+
+#custom-table.table {
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  width: 75%;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.custom-well {
+  background-color: rgb(42, 129, 101);
+  color: white;
+  margin-top: 4%;
+  border: none;
+
+  border-radius: 5px;
+
+  -webkit-box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+  text-align: center;
+
+  -webkit-box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.2);
+}
+
+.info-content {
+  font-size: 20px;
+  font-family: GandhiSans-Regular;
+}
+
+.info-header {
+  font-size: 32px;
+  font-family: GandhiSans-Italic;
+}
+
+.picture {
+  float: right;
+  margin: 5%;
+  padding: 10px;
+}
