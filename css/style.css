@@ -61,12 +61,12 @@ body {
 
 .info-content {
   font-size: 20px;
-  font-family: GandhiSans-Regular;
+  font-family: GandhiSans-Regular, helvetica;
 }
 
 .info-header {
   font-size: 32px;
-  font-family: GandhiSans-Italic;
+  font-family: GandhiSans-Italic, helvetica;
 }
 
 .picture {
